@@ -38,10 +38,20 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- Below dependency is used so that project is build automatically whenver 
+			we save any modofication in project -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<version>2.4.0</version>
+		</dependency>
+		<!-- Below dependency is used so that we can use @getter @setter etc to 
+			automatically generate getter setter methods -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
 		</dependency>
 	</dependencies>
 
